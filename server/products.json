@@ -1,0 +1,173 @@
+[
+ {
+   "id": 198435,
+   "Name": "Dabur Almond Oil",
+   "Description": "Hair oil",
+   "Quantity": 1,
+   "Cost price": 50,
+   "Selling price": "",
+   "MRP": 65
+ },
+ {
+   "id": 198436,
+   "Name": "Britannia Marie",
+   "Description": "Biscuit",
+   "Quantity": 1,
+   "Cost price": 12,
+   "Selling price": "",
+   "MRP": 12
+ },
+ {
+   "id": 198437,
+   "Name": "Hair N Shoulders",
+   "Description": "Shampoo",
+   "Quantity": 2,
+   "Cost price": 60,
+   "Selling price": "",
+   "MRP": 75
+ },
+ {
+   "id": 198438,
+   "Name": "Pepsi",
+   "Description": "Cold Drink",
+   "Quantity": 3,
+   "Cost price": 20,
+   "Selling price": "",
+   "MRP": 20
+ },
+ {
+   "id": 198439,
+   "Name": "Wheat Flour",
+   "Description": "Wheat Flour 5 Kg",
+   "Quantity": 1,
+   "Cost price": 225,
+   "Selling price": "",
+   "MRP": 245
+ },
+ {
+   "id": 198440,
+   "Name": "Maggi",
+   "Description": "Maggi Family Pack",
+   "Quantity": 3,
+   "Cost price": 120,
+   "Selling price": "",
+   "MRP": 120
+ },
+ {
+   "id": 198441,
+   "Name": "Bread",
+   "Description": "Bread",
+   "Quantity": 1,
+   "Cost price": 18,
+   "Selling price": "",
+   "MRP": 18
+ },
+ {
+   "id": 198442,
+   "Name": "Olive Oil",
+   "Description": "Oil",
+   "Quantity": 1,
+   "Cost price": 55,
+   "Selling price": "",
+   "MRP": 60
+ },
+ {
+   "id": 198443,
+   "Name": "Ching's Manchow Soup",
+   "Description": "Soup",
+   "Quantity": 5,
+   "Cost price": 45,
+   "Selling price": "",
+   "MRP": 50
+ },
+ {
+   "id": 198444,
+   "Name": "Amul Butter",
+   "Description": "Butter",
+   "Quantity": 2,
+   "Cost price": 40,
+   "Selling price": "",
+   "MRP": 40
+ },
+ {
+   "id": 198445,
+   "Name": "Amul Milk",
+   "Description": "Amulmilk 1 Ltr",
+   "Quantity": 1,
+   "Cost price": 38,
+   "Selling price": "",
+   "MRP": 42
+ },
+ {
+   "id": 198446,
+   "Name": "Eggs",
+   "Description": "Eggs 1 Dozen",
+   "Quantity": 2,
+   "Cost price": 110,
+   "Selling price": "",
+   "MRP": 120
+ },
+ {
+   "id": 198447,
+   "Name": "Badshah Masala",
+   "Description": "Spices",
+   "Quantity": 2,
+   "Cost price": 60,
+   "Selling price": "",
+   "MRP": 60
+ },
+ {
+   "id": 198448,
+   "Name": "Boneless Chicken",
+   "Description": "Chicken - 1 Kg",
+   "Quantity": 2,
+   "Cost price": 500,
+   "Selling price": "",
+   "MRP": 500
+ },
+ {
+   "id": 198449,
+   "Name": "Salmon",
+   "Description": "Salmon - 1 piece",
+   "Quantity": 1,
+   "Cost price": 340,
+   "Selling price": "",
+   "MRP": 340
+ },
+ {
+   "id": 198450,
+   "Name": "Pasta",
+   "Description": "Pasta",
+   "Quantity": 5,
+   "Cost price": 180,
+   "Selling price": "",
+   "MRP": 180
+ },
+ {
+   "id": 198451,
+   "Name": "Barbeque Sauce",
+   "Description": "Barbeque Sauce",
+   "Quantity": 2,
+   "Cost price": 200,
+   "Selling price": "",
+   "MRP": 200
+ },
+ {
+   "id": 198452,
+   "Name": "Nutella Soya chunks",
+   "Description": "Nutella Soya chunks",
+   "Quantity": 1,
+   "Cost price": 50,
+   "Selling price": "",
+   "MRP": 50
+ },
+ {
+   "id": 198453,
+   "Name": "Oats",
+   "Description": "Oats - 500 g",
+   "Quantity": 1,
+   "Cost price": 120,
+   "Selling price": "",
+   "MRP": 120
+ }
+]

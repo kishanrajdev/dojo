@@ -12,8 +12,8 @@ const Scan = (props) => {
           </form>
       </div>
       <div>
-          <Link to="/checkout" className="checkoutLink">
-            Checkout
+          <Link to="/order-success" className="checkoutLink">
+            Pay Now
           </Link>
       </div>
     </div>

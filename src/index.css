@@ -12,7 +12,7 @@ body {
 
 a:hover, a:focus, a:active {
   text-decoration: none;
-  color: inherit !important;
+  color: #fff !important;
 }
 
 code {
@@ -24,17 +24,8 @@ button:focus {
   outline: none;
 }
 
-a, a:hover, .button-author {
-  color: #000;
-}
-
 .scan-wrap {
   color: #fff;
-}
-.btn-author, .btn-author:hover {
-  color: #000; 
-  border: none;
-  background: inherit;
 }
 
 .scanButton {

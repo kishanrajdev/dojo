@@ -2,13 +2,17 @@ import React, { Component }  from 'react';
 import { connect } from 'react-redux';
 import Scan from '../components/scan';
 import CartItems from '../components/cartItems';
-import { getProduct } from '../modules/products';
+import { getProduct, resetCart } from '../modules/products';
 
 
 class Home extends Component {
   constructor(props) {
     super(props);
     this.scanProduct = this.scanProduct.bind(this);
+  }
+
+  componentDidMount() {
+    this.props.resetCart();
   }
 
   scanProduct(e) {
@@ -45,4 +49,4 @@ class Home extends Component {
 
 const mapStateToProps = ({ products }) => ({ products });
 
-export default connect(mapStateToProps, { getProduct })(Home);
+export default connect(mapStateToProps, { getProduct, resetCart })(Home);

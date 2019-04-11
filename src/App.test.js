@@ -4,7 +4,7 @@ import App from './App';
 import { Provider } from 'react-redux';
 import { ConnectedRouter } from 'connected-react-router';
 import store, { history } from './store';
-import reducer from './modules/products';
+import reducer, { resetCart, getProduct } from './modules/products';
 
 describe('rendering the app ', () => {
   it('renders without crashing', () => {
@@ -46,10 +46,45 @@ describe('Products reducer ', () => {
     const productData = {id: '123', title: 'my prod'};
     const state = {
       isWaiting: false,
-      products: productData,
+      product: productData,
       requestError: '',
       cart: [{id: '123', title: 'my prod'}]
     };
     expect(reducer({}, {type: 'products/PRODUCT', product: productData, cart: [productData] })).toEqual(state);
   });
-})
+
+  it('should set product data', () => {
+    const state = {
+      isWaiting: false,
+      product: {},
+      requestError: '',
+      cart: []
+    };
+    expect(reducer({}, {type: 'products/CART', product: {}, cart: [] })).toEqual(state);
+  });
+});
+
+describe('reset cart ', () => {
+  it('should clear the cart and product data', async () => {
+    const dispatch = jest.fn();
+    const getState = jest.fn();
+    await resetCart()(dispatch, getState);
+    expect(dispatch).toBeCalledWith({ type: 'products/CART', cart: [] });
+  })
+});
+
+describe('add product to cart', () => {
+  it('should dispatch request sent', async () => {
+    const dispatch = jest.fn();
+    const getState = jest.fn();
+    await getProduct()(dispatch, getState);
+    expect(dispatch).toBeCalledWith({ type: 'products/REQUEST_SENT' });
+  });
+
+  it('should add product to cart', async () => {
+    const dispatch = jest.fn();
+    const getState = jest.fn();
+    await getProduct()(dispatch, getState);
+    expect(dispatch).toBeCalledWith({ type: 'products/PRODUCT', product: {id: 1, name: 'test'}, cart: [{id: 1, name: 'test'}] });
+  })
+});

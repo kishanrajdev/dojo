@@ -50,8 +50,9 @@ button:focus {
   color: #fff;
   border-radius: 5px;
   cursor: pointer;
-  padding: 0.85em;
+  padding: 0.65em 0.85em;
   margin: 0.5em 0;
+  font-size: 1.1em;
 }
 
 .scanButton i {

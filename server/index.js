@@ -1,7 +1,7 @@
 const express = require('express');
 const path = require('path');
 const products = require('./products.json');
-
+const request = require('request');
 const app = express();
 const port = process.env.NODE_ENV === 'production' ? 3000 : 5000;
 

@@ -13,7 +13,7 @@ const CartItems = ({cart}) => {
     });
 
     return (
-      <table className="table">
+      <table className="table table-borderless rounded">
         <thead>
         <tr>
         <th scope="col">Name</th>
